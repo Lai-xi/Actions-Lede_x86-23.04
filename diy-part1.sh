@@ -51,3 +51,6 @@ git clone  --depth=1 -b main https://github.com/gdy666/luci-app-lucky.git packag
 # Add luci-app-bandix
 git clone https://github.com/timsaya/openwrt-bandix.git package/bandix
 git clone https://github.com/timsaya/luci-app-bandix.git package/luci-app-bandix
+
+# Add OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
