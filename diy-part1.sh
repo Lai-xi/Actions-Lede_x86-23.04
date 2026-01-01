@@ -18,7 +18,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i '/src-git.*openwrt-23/s/^/#/' feeds.conf.default
 # sed -i '/src-git.*openwrt-24/s/^/#/' feeds.conf.default
 # sed -i '/src-git.*openwrt-25/s/^/#/' feeds.conf.default
-sed -i 's/openwrt-23.05/openwrt-24.10/g' feeds.conf.default
+# sed -i 's/openwrt-23.05/openwrt-24.10/g' feeds.conf.default
 
 # Add a feed source
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
